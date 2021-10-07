@@ -86,6 +86,53 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+    /*########## header mobile ##########*/
+header {
+  background-color: black;
+  display: flex; /*je rend le header flexible*/
+  flex-direction: row-reverse; /* j'inverse ma sestion(mopn block titre) avec mon aside (mon bloque logo).*/
+  justify-content:flex-end; /* je justifis mes enfants à la gauche*/
+  padding: 0.5em; /* je met un espace entre mon bord d'écran et mon affichage*/
+}
+section {
+  background-color: red;
+  width: 90%; /*je met une largeur de 90% à ma section par rapport à mon header*/
+  display: flex; /*je rend la section flexible*/
+  justify-content: center; /* je justifi mon titre au centre*/
+}
+.titre {
+
+}
+aside {
+  background-color: green;
+}
+.logo {
+  width: 100%; /*je dis au logo de prendre 100% de la taille du block en largeur*/
+  height:15vh; /* je donne 15vh de hauteur à mon logo*/
+}
+nav {
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  padding: 0.5em;
+}
+button {
+  background-color: yellow;
+  margin: 0 0 0 0.5em;
+}
+input {
+  background-color: purple;
+}
+.button {
+  width: 25vw;
+  height: 5vh;
+  align-self: center;
+  font-size: 1rem;
+}
+
+.recherche {
+  border-radius: 5px;
+}
 
 /* ==========================================================================
    Helper classes
@@ -260,4 +307,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
