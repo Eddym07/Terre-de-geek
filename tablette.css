@@ -108,9 +108,7 @@ header>section {
   display: flex; /*je rend la section flexible*/
   justify-content: center; /* je justifi mon titre au centre*/
 }
-.titre {
 
-}
 
 .logo {
   width: 100%; /*je dis au logo de prendre 100% de la taille du block en largeur*/
@@ -122,9 +120,13 @@ nav {
   justify-content: center;
   padding: 0.5em;
 }
-.nav {
-  display: none;
-  }
+header>section {
+  background-color: #D4A373;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5em;
+}
+
   button {
   background-color: #eaf4f4;
   margin: 0 0 0 0.5em;
@@ -158,7 +160,7 @@ div1>section {
   width: 100%;
   height: 50vh;
 }
-.lien1 {
+  .lien1 {
   align-self: center;
   margin: 1em;
 }
@@ -186,7 +188,9 @@ div3>section {
   widht: 100%;
   height: 50vh;
 }
-
+.footer {
+  display: none;
+  }
 footer>section {
   background-color: #D4A373;
   display: flex;
